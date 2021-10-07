@@ -1,0 +1,98 @@
+/* Colors */
+
+.our-text-primary {
+  color: #464660;
+}
+
+.our-background-primary {
+  background-color: #464660;
+}
+
+.our-background-secondary {
+  background-color: #F1E9E5;
+}
+
+/* Global */
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Aside */
+
+.our-btn {
+  color: white;
+  background-color: rgba(196, 196, 196, 0.15);
+  border: 1px solid white;
+  border-radius: 50px;
+  min-height: 60px;
+}
+
+.flex-btn {
+  flex-direction: column;
+  align-self: flex-end;
+  margin-top: 5rem !important;
+}
+
+.aside-text {
+  margin: 1.5rem;
+}
+
+@media screen and (max-width: 749px) {
+  .full-name,
+  .job {
+    text-align: center;
+  }
+}
+
+/* Main */
+
+/*Start more-disciplines*/
+.article_block{
+  float: left;
+}
+
+.article_headings{
+  font-size: 1.5rem;
+}
+
+.article_text_black{
+  text-align: justify;
+  color: black;
+  font-size: 1rem;
+  font-family: 'Karla Bold', arial;
+}
+
+.margin_article{
+  margin: 0.9rem;
+}
+/*End more-disciplines*/
+
+.margin-left-right-text {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.margin_article{
+  margin: 0.9rem;
+}
+
+/* Dan4ik */
+.life-hack {
+  margin-left: -20px;
+}
+
+.real-costily {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+  .life-hack {
+    display: none;
+  }
+}
